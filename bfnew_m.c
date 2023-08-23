@@ -8,7 +8,7 @@ int main(void) {
 	puts("Enter your password:");
 	PWverify = IsPasswordValid();
 	if (!PWverify) {
-		puts("Password Error!!! Please try again.");
+		puts("Password Error!! Please try again.");
 		return -1;
 	}
 	else puts("Welcome. Your password is correct.");
